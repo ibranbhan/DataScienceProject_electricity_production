@@ -1,3 +1,21 @@
+# Objective
+The project aims to uncover underlying patterns, dependencies, and predictive factors in electricity production by applying sophisticated data science techniques like Random Forest Regressor, Gradient Boosting Regressor, and Support Vector Regression (SVR).
+
+# Team memebers
+* asdas
+* asad
+* Ibrahim
+* Saleh Alanazi - 221434727
+
+# Problem statment
+The primary objective of this project is to harness the power of data science techniques to analyze, interpret, and predict trends in electricity generation. By applying sophisticated models like Random Forest Regressor, Gradient Boosting Regressor, and Support Vector Regression (SVR), the project aims to uncover underlying patterns, dependencies, and predictive factors in electricity production. This approach is significant for several reasons:
+
+Predictive Insights: Understanding future trends in electricity production can aid policymakers and industry stakeholders in making informed decisions.
+Resource Management: Efficient prediction models can lead to better resource allocation and management, particularly in renewable energy sectors.
+Sustainable Development: Insights derived from the data can contribute to strategies aimed at sustainable energy development and reducing carbon footprints.
+Economic Analysis: The data can reveal economic implications, like the impact of energy production on national economies and global markets.
+In essence, this project is not just a technical endeavor but a crucial step towards a more informed and sustainable future in global energy management. Through the intelligent application of data science techniques, it aspires to contribute to the broader dialogue on energy sustainability and efficiency
+
 # Abstract
 
 This project focuses on analyzing global electricity production trends from 2010 to 2022, using comprehensive data from the International Energy Agency (IEA). The data encompasses monthly electricity generation in gigawatt-hours (GWh) across various countries and a wide range of energy products, including renewables like hydro, wind, solar, and geothermal, as well as nuclear and fossil fuels. 
