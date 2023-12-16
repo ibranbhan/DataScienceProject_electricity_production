@@ -53,7 +53,7 @@ yearToDate: The amount of electricity generated for the current year up to the c
 previousYearToDate: The amount of electricity generated for the previous year up to the current month in GWh
 share: The share of the product in the total electricity generation for the country in decimal format
 
-Dataset Preprocessing:
+# Dataset Preprocessing:
 The preprocessing phase involves cleaning the data for any inconsistencies or missing values, normalizing the data formats, and structuring the dataset for analysis. This may include transforming the time codes into a standard date format, categorizing the energy products, and ensuring the data's integrity for accurate analysis.
 Feature Engineering
 Drop columns
@@ -62,11 +62,11 @@ Find duplicate values
 Find Null values
 Replace null values with 0
 
-Data Science Techniques for Analysis:
+# Data Science Techniques for Analysis:
 Time-Series Analysis: 
 To examine trends over time, time-series analysis will be employed. This technique is ideal for understanding how electricity production has evolved monthly and annually, highlighting trends and patterns.
 
-Data Visualization: 
+# Data Visualization: 
 To effectively communicate the findings, various data visualization tools will be used.
 
 
