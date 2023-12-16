@@ -2,9 +2,9 @@
 The project aims to uncover underlying patterns, dependencies, and predictive factors in electricity production by applying sophisticated data science techniques like Random Forest Regressor, Gradient Boosting Regressor, and Support Vector Regression (SVR).
 
 # Team memebers
-* asdas
-* asad
-* Ibrahim
+* Yahya Hamad Mahdali - 220024667
+* Abdulrahman Alsubayq - 220016516
+* Ibrahim Mohammed Nabhan - 220034486
 * Saleh Alanazi - 221434727
 
 # Problem statment
