@@ -23,8 +23,8 @@ The core problem we want to solve is to predict the electricity price production
 # Objective
 The project aims to uncover underlying patterns, dependencies, and predictive factors in electricity production by applying sophisticated data science techniques like Random Forest Regressor, Gradient Boosting Regressor, and Support Vector Regression (SVR).
 
-# Dataset source
-https://www.kaggle.com/datasets/ccanb23/iea-monthly-electricity-statistics
+
+
 
 
 # Dataset and Approach
@@ -32,20 +32,41 @@ https://www.kaggle.com/datasets/ccanb23/iea-monthly-electricity-statistics
 - Overall Approach: The primary approach for addressing the analysis of global electricity production trends is to perform a comprehensive examination of monthly electricity production data across various countries from 2010 to 2022. This approach involves aggregating and analyzing data to understand the changes in energy production, with a focus on the transition towards renewable energy sources and the comparison of energy mixes across different nations.
 
 - Data Collection, Description, and Preprocessing:
-The data was collected from the International Energy Agency (IEA) using a data scraper, specifically designed for this purpose and available on GitHub. This scraper efficiently extracts monthly electricity production data in gigawatt-hours (GWh) from the IEA's Monthly Electricity Statistics tool.
-Description: The dataset includes detailed information on energy production from a wide range of countries, encompassing various energy products such as hydro, wind, solar, geothermal, nuclear, and fossil fuels. Each record in the dataset contains the country's name, a code representing the month and year, the energy product type, and the amount of electricity generated.
-Preprocessing: The preprocessing phase involves cleaning the data for any inconsistencies or missing values, normalizing the data formats, and structuring the dataset for analysis. This may include transforming the time codes into a standard date format, categorizing the energy products, and ensuring the data's integrity for accurate analysis.
+Data Collection:
+https://www.kaggle.com/datasets/ccanb23/iea-monthly-electricity-statistics
+Description: 
+The data includes information about energy production in various countries on a monthly basis from 2010 to 2022. The energy production is measured in gigawatt-hours (GWh) and covers a range of energy products including hydro, wind, solar, geothermal, nuclear, fossil fuels, and others.
 
+Countries:
+Argentina, Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, IEA Total, Iceland, India, Ireland, Italy, Japan, Korea, Latvia, Lithuania, Luxembourg, Malta, Mexico, Netherlands, New Zealand, North Macedonia, Norway, OECD Americas, OECD Asia Oceania, OECD Europe, OECD Total, People's Republic of China, Poland, Portugal, Republic of Turkiye, Romania, Serbia, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States
+
+Products:
+Hydro, Wind, Solar, Geothermal, Other renewables, Nuclear, Total combustible fuels, Coal, Oil, Natural gas, Combustible renewables, Other combustible non-renewables, Not specified, Net electricity production, Total imports, Total exports, Electricity supplied, Used for pumped storage, Distribution losses, Final consumption, Electricity trade, Renewables, Non-renewables, Others, Other renewables aggregated, Low carbon, Fossil fuels
+
+The dataset columns include:
+
+COUNTRY: Name of the country
+CODE_TIME: A code that represents the month and year (e.g., JAN2010 for January 2010)
+TIME: The month and year in a more human-readable format (e.g., January 2010)
+YEAR: The year of the data point
+MONTH: The month of the data point as a number (1-12)
+MONTH_NAME: The month of the data point as a string (e.g., January)
+PRODUCT: The type of energy product (e.g., Hydro, Wind, Solar)
+VALUE: The amount of electricity generated in gigawatt-hours (GWh)
+DISPLAY_ORDER: The order in which the products should be displayed
+yearToDate: The amount of electricity generated for the current year up to the current month in GWh
+previousYearToDate: The amount of electricity generated for the previous year up to the current month in GWh
+share: The share of the product in the total electricity generation for the country in decimal format
+
+Preprocessing: 
+The preprocessing phase involves cleaning the data for any inconsistencies or missing values, normalizing the data formats, and structuring the dataset for analysis. This may include transforming the time codes into a standard date format, categorizing the energy products, and ensuring the data's integrity for accurate analysis.
 
 - Data Science Techniques for Analysis:
-Time-Series Analysis: To examine trends over time, time-series analysis will be employed. This technique is ideal for understanding how electricity production has evolved monthly and annually, highlighting trends and patterns.
-Comparative Analysis: This involves comparing electricity production across different countries and energy products. It helps in understanding the differences in energy mixes and the adoption rates of various energy sources.
-Statistical Modeling: Statistical models, such as regression analysis, may be used to determine the influence of different factors (like economic or policy changes) on electricity production.
-Data Visualization: To effectively communicate the findings, various data visualization tools will be used. This includes creating graphs and charts that represent the trends in electricity production, the share of different energy sources, and comparative analyses between countries.
-Predictive Analytics: Depending on the scope, predictive models could be developed to forecast future trends in electricity production based on historical data.
-This approach, combining comprehensive data collection, meticulous preprocessing, and a blend of analytical techniques, is designed to provide a thorough understanding of the global trends in electricity production, with a particular focus on the evolving role of renewable energy sources.
+Time-Series Analysis: 
+To examine trends over time, time-series analysis will be employed. This technique is ideal for understanding how electricity production has evolved monthly and annually, highlighting trends and patterns.
 
-- The approach of using the IEA's monthly electricity production data from 2010 to 2022 aligns well with the identified gaps in current research. The comprehensive nature of this dataset, covering a wide range of countries and energy products, allows for a detailed analysis of monthly and annual trends in electricity production. The inclusion of diverse energy sources, from traditional fossil fuels to emerging renewables, provides a unique opportunity to examine the evolving energy mix globally. Employing data scraping techniques for data collection ensures a methodologically sound approach, consistent with current research practices in the field. This approach will enable a thorough examination of recent trends in global electricity production, contributing valuable insights to the existing body of knowledge.
+Data Visualization: 
+To effectively communicate the findings, various data visualization tools will be used.
 
 
   # Conculsion
