@@ -70,6 +70,25 @@ To examine trends over time, time-series analysis will be employed. This techniq
 # Data Visualization: 
 To effectively communicate the findings, various data visualization tools will be used.
 
+# Model Selection
+Random Forest Regressor:
+
+Reasoning:
+Handles non-linear relationships well, crucial for predicting electricity generation with complex patterns.
+Robust to outliers, providing stability in irregular data points.
+Incorporates feature importance rankings, aiding in understanding key predictive features.
+Gradient Boosting Regressor:
+
+Reasoning:
+Builds an ensemble of weak learners to capture intricate relationships in data.
+Effective for non-linear dependencies, suitable for complex energy generation datasets.
+High accuracy and mitigates overfitting through sequential model building.
+Support Vector Regression (SVR):
+
+Reasoning:
+Effective in high-dimensional spaces, aligning with the multidimensional nature of the dataset.
+Flexible kernel function choice to handle various data relationships.
+Suitable for non-linear dependencies significant in predicting electricity generation
 
   # Conculsion
 
