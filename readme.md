@@ -23,6 +23,10 @@ The core problem we want to solve is to predict the electricity price production
 # Objective
 The project aims to uncover underlying patterns, dependencies, and predictive factors in electricity production by applying sophisticated data science techniques like Random Forest Regressor, Gradient Boosting Regressor, and Support Vector Regression (SVR).
 
+# Dataset source
+https://www.kaggle.com/datasets/ccanb23/iea-monthly-electricity-statistics
+
+
 # Dataset and Approach
 
 - Overall Approach: The primary approach for addressing the analysis of global electricity production trends is to perform a comprehensive examination of monthly electricity production data across various countries from 2010 to 2022. This approach involves aggregating and analyzing data to understand the changes in energy production, with a focus on the transition towards renewable energy sources and the comparison of energy mixes across different nations.
