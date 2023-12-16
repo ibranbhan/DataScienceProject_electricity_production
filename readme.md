@@ -54,13 +54,14 @@ previousYearToDate: The amount of electricity generated for the previous year up
 share: The share of the product in the total electricity generation for the country in decimal format
 
 # Dataset Preprocessing:
-The preprocessing phase involves cleaning the data for any inconsistencies or missing values, normalizing the data formats, and structuring the dataset for analysis. This may include transforming the time codes into a standard date format, categorizing the energy products, and ensuring the data's integrity for accurate analysis.
-Feature Engineering
-Drop columns
-Convert categorical data to numerical data
-Find duplicate values
-Find Null values
-Replace null values with 0
+The preprocessing phase involves cleaning the data for any inconsistencies or missing values, normalizing the data formats, and structuring the dataset for analysis.
+This includes:
+- Feature Engineering
+- Drop columns
+- Convert categorical data to numerical data
+- Find duplicate values
+- Find Null values
+- Replace null values with 0
 
 # Data Science Techniques for Analysis:
 Time-Series Analysis: 
