@@ -34,7 +34,8 @@ https://www.kaggle.com/datasets/ccanb23/iea-monthly-electricity-statistics
 - Number of Features:
 12
 - The size of df is 181915 rows x 12 features.
-
+- The data file size is 18.7 MB
+  
 # Dataset Description
 The data includes information about energy production in various countries on a monthly basis from 2010 to 2022. The energy production is measured in gigawatt-hours (GWh) and covers a range of energy products including hydro, wind, solar, geothermal, nuclear, fossil fuels, and others.
 
