@@ -9,13 +9,7 @@ The landscape of global energy production has been evolving significantly over t
 
 Spanning over a diverse range of energy products like hydro, wind, solar, geothermal, nuclear, and fossil fuels, the dataset provides a granular view of electricity generation in gigawatt-hours (GWh). It encompasses a broad spectrum of countries, including major economies and developing nations, thereby offering a global perspective on energy production trends. The dataset is enriched with detailed classifications, including types of energy products, monthly and yearly breakdowns, and comparative analyses of year-to-date generation figures.
 
-The primary objective of this project is to harness the power of data science techniques to analyze, interpret, and predict trends in electricity generation. By applying sophisticated models like Random Forest Regressor, Gradient Boosting Regressor, and Support Vector Regression (SVR), the project aims to uncover underlying patterns, dependencies, and predictive factors in electricity production. This approach is significant for several reasons:
-
-- Predictive Insights: Understanding future trends in electricity production can aid policymakers and industry stakeholders in making informed decisions.
-
-- Resource Management: Efficient prediction models can lead to better resource allocation and management, particularly in renewable energy sectors.
-- Sustainable Development: Insights derived from the data can contribute to strategies aimed at sustainable energy development and reducing carbon footprints.
-- Economic Analysis: The data can reveal economic implications, like the impact of energy production on national economies and global markets.
+The primary objective of this project is to harness the power of data science techniques to analyze, interpret, and predict trends in electricity generation. By applying sophisticated models like Random Forest Regressor, Gradient Boosting Regressor, and Support Vector Regression (SVR), the project aims to uncover underlying patterns, dependencies, and predictive factors in electricity production.
 
 In essence, this project is not just a technical endeavor but a crucial step towards a more informed and sustainable future in global energy management. Through the intelligent application of data science techniques, it aspires to contribute to the broader dialogue on energy sustainability and efficiency.
 
