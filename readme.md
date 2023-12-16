@@ -12,7 +12,7 @@ Spanning over a diverse range of energy products like hydro, wind, solar, geothe
 This project is not just a technical endeavor but a crucial step towards a more informed and sustainable future in global energy management. Through the intelligent application of data science techniques, it aspires to contribute to the broader dialogue on energy sustainability and efficiency.
 
 # Problem statment
-The core problem we want to solve is to predict the electricity price production in GWh for a country. using these variables
+The core problem we want to solve is to predict the total electricity production in GWh for a country. using these variables
 - Name of the country
 - The year of the data point
 - The month of the data point as a number
