@@ -73,10 +73,18 @@ To effectively communicate the findings, various data visualization tools will b
 
   # Conculsion
 
-  In this project, we've undertaken a comprehensive analysis of global electricity production trends from 2010 to 2022 using data from the International Energy Agency (IEA). Our objectives included identifying production patterns, assessing renewable energy growth, and comparing energy mixes across countries. We employed data scraping to collect detailed data, which was then rigorously preprocessed.
-    
-    During our preliminary analysis, we presented an overview of the dataset and initial findings, such as temporal trends and energy product diversity. We outlined plans for further in-depth analysis, including country-wise assessments, energy product distribution exploration, and seasonal pattern identification.
-    
-    Visualizations, such as time series plots and bar charts, will support our analysis. This project goes beyond technical analysis, offering insights for policymakers, resource management, sustainability, and economic considerations.
-    
-    In summary, this project aims to contribute to informed and sustainable global energy management. It leverages advanced data science techniques to uncover underlying electricity production patterns, with significant implications for decision-makers and the broader energy sustainability discourse.
+In conclusion, the predictive models were evaluated based on their Mean Absolute Error (MAE) performance metrics. The MAE values for each model are as follows:
+
+Random Forest Regressor MAE: 674.87
+
+The Random Forest model demonstrated superior performance with a low MAE, indicating accurate predictions.
+Its ability to handle non-linear relationships, robustness to outliers, and feature importance rankings contributed to its success.
+Gradient Boosting Regressor MAE: 21652.76
+
+The Gradient Boosting model exhibited a higher MAE compared to Random Forest, suggesting a less accurate predictive performance.
+Despite its effectiveness in capturing complex patterns, the model may require further tuning to enhance accuracy.
+Support Vector Regression (SVR) MAE: 20788.34
+
+The SVR model displayed a similar MAE to Gradient Boosting, indicating room for improvement.
+SVR's effectiveness in capturing complex relationships in high-dimensional spaces suggests potential, but further optimization may be beneficial.
+In summary, while the Random Forest Regressor outperformed the other models in terms of MAE, ongoing refinement and optimization of the Gradient Boosting and SVR models may lead to improved predictive accuracy. These insights contribute to the iterative process of model development, guiding future efforts to enhance the effectiveness of electricity generation predictions.
