@@ -12,7 +12,7 @@ Spanning over a diverse range of energy products like hydro, wind, solar, geothe
 This project is not just a technical endeavor but a crucial step towards a more informed and sustainable future in global energy management. Through the intelligent application of data science techniques, it aspires to contribute to the broader dialogue on energy sustainability and efficiency.
 
 # Problem statment
-The core problem we want to solve is to predict the total electricity production in a single type of energy product in GWh for a country.  
+The core problem we want to solve is to predict the total electricity production in a single type of energy product in GWh for a country at specific month.  
 We will utilize advanced models such as Random Forest Regressor, Gradient Boosting Regressor, and Support Vector Regression (SVR) to uncover patterns, dependencies, and predictive factors in electricity production.
 
 # Objective
