@@ -27,8 +27,13 @@ The project aims to uncover underlying patterns, dependencies, and predictive fa
 The primary approach for addressing the analysis of global electricity production trends is to perform a comprehensive examination of monthly electricity production data across various countries from 2010 to 2022. This approach involves aggregating and analyzing data to understand the changes in energy production, with a focus on the transition towards renewable energy sources and the comparison of energy mixes across different nations.
 
 # Dataset Collection
-Data Collection:
+- Data source:
 https://www.kaggle.com/datasets/ccanb23/iea-monthly-electricity-statistics
+- Number of rows: 
+181915
+- Number of Features:
+12
+- The size of df is 181915 rows x 12 features.
 
 # Dataset Description
 The data includes information about energy production in various countries on a monthly basis from 2010 to 2022. The energy production is measured in gigawatt-hours (GWh) and covers a range of energy products including hydro, wind, solar, geothermal, nuclear, fossil fuels, and others.
