@@ -1,5 +1,5 @@
 # Team memebers
-* Yahya Mahdali - 220024667
+* Yahya Mahdali - 220024667 
 * Abdulrahman Alsubayq - 220016516
 * Ibrahim Nabhan - 220034486
 * Saleh Alanazi - 221434727
